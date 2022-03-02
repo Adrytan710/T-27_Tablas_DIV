@@ -1,0 +1,19 @@
+table,
+th,
+td {
+  border: 1px solid #75c8e3;
+}
+
+table {
+  background-color: #003333;
+}
+th {
+  color: lightgreen;
+}
+
+.table > tbody > tr:nth-child(odd) > td {
+  background-color: #99cc99;
+}
+.table > tbody > tr:nth-child(even) > td {
+  background-color: #ccffcc;
+}
